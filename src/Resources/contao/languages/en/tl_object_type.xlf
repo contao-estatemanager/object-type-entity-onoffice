@@ -1,0 +1,33 @@
+<?xml version="1.0" ?><xliff version="1.1">
+  <file datatype="php" original="src/Resources/contao/languages/en/tl_object_type.php" source-language="en">
+    <body>
+      <trans-unit id="tl_object_type.errNoLanguage">
+        <source>Please enter a valid language abbreviation in order to start the import.</source>
+      </trans-unit>
+      <trans-unit id="tl_object_type.importComplete">
+        <source>The import was carried out successfully.</source>
+      </trans-unit>
+      <trans-unit id="tl_object_type.emptyRecords">
+        <source>No object types were returned by onOffice.</source>
+      </trans-unit>
+      <trans-unit id="tl_object_type.language.0">
+        <source>Language</source>
+      </trans-unit>
+      <trans-unit id="tl_object_type.language.1">
+        <source>Please enter the language abbreviation as expected by onOffice. (s. https://apidoc.onoffice.de/index.php/actions/informationen-abfragen/feldkonfiguration/)</source>
+      </trans-unit>
+      <trans-unit id="tl_object_type.importObjectTypes.0">
+        <source>Import object types</source>
+      </trans-unit>
+      <trans-unit id="tl_object_type.importObjectTypes.1">
+        <source>Import object types</source>
+      </trans-unit>
+      <trans-unit id="tl_object_type.truncate.0">
+        <source>Delete data</source>
+      </trans-unit>
+      <trans-unit id="tl_object_type.truncate.1">
+        <source>Attention: Deletes all previous entries before the import.</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
