@@ -1,6 +1,5 @@
 {
   "name":"contao-estatemanager/object-type-entity-onoffice",
-  "type":"contao-bundle",
   "description":"Object Type onOffice import",
   "keywords":["contao","object-type", "onoffice"],
   "homepage":"https://oveleon.de/",
