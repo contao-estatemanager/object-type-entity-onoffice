@@ -7,7 +7,4 @@
  */
 
 // Back end modules
-array_insert($GLOBALS['BE_MOD']['system']['objectTypes'], 1, array
-(
-    'importObjectTypes' => array('\\ContaoEstateManager\\ObjectTypeEntityOnOffice\\OnOfficeObjectType', 'setupImport')
-));
+$GLOBALS['BE_MOD']['system']['objectTypes']['importObjectTypes'] = array('\\ContaoEstateManager\\ObjectTypeEntityOnOffice\\OnOfficeObjectType', 'setupImport');
