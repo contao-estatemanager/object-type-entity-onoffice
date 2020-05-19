@@ -5,7 +5,9 @@
  * (c) https://www.oveleon.de/
  */
 
-$GLOBALS['TL_DCA']['tl_object_type']['list']['global_operations']['importObjectTypes'] = array(
+// Global operations
+$GLOBALS['TL_DCA']['tl_object_type']['list']['global_operations']['importObjectTypes'] = array
+(
     'href'                => 'key=importObjectTypes',
     'class'               => 'header_theme_import'
 );
@@ -13,6 +15,7 @@ $GLOBALS['TL_DCA']['tl_object_type']['list']['global_operations']['importObjectT
 // Add fields
 $GLOBALS['TL_DCA']['tl_object_type']['fields']['oid'] = array
 (
+    'label'                   => &$GLOBALS['TL_LANG']['tl_object_type']['oid'],
     'exclude'                 => true,
     'search'                  => true,
     'sorting'                 => true,
